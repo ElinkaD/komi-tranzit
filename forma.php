@@ -1,4 +1,4 @@
-<section class="contact-form">
+<section id="contact-form" class="contact-form">
     <h3>Связаться с нами</h3>
     <div class="right">
         <form action="#">

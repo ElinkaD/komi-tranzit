@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Получение всех ссылок в навигации
     const links = document.querySelectorAll('.nav-links a');
-
+    
     links.forEach(link => {
         link.addEventListener('click', function(event) {
             // Если ссылка указывает на текущую страницу

@@ -128,3 +128,13 @@ address {
     font-family: Hauora, sans-serif;
     font-size: 14px;
 }
+
+.link-button img {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.link-button:hover img {
+    transform: translate(10px, -10px);
+    opacity: 0.8;
+}
+

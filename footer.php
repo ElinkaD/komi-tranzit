@@ -5,7 +5,7 @@
                 <p>Оставьте заявку и&nbsp;менеджеры свяжутся с&nbsp;вами в&nbsp;ближайшее время</p>
                 <div class="request-link">
                     <hr class="line">
-                    <a href="#" class="link-button">
+                    <a href="index.php?page=contacts_page#contact-form" class="link-button">
                         <h3>Оставить заявку</h3>
                         <img src="img/svg/arrow.svg" alt="стрелка">
                     </a>
@@ -17,7 +17,7 @@
                     <p>Республика Коми, г.Усинск, ул. Загородная 3<br/>+7 (821) <nobr>442-99-52</nobr><br/><a href="mailto:KomiTranzit@mail.ru" style="color: rgba(0, 32.38, 51, 0.70);">KomiTranzit@mail.ru</a></p>                
                 </address>
                 <div class="contacts-link">
-                    <a href="#" class="link-button">
+                    <a href="index.php?page=contacts_page" class="link-button">
                         <h3>Все контакты</h3>
                         <img src="img/svg/arrow.svg" alt="стрелка">
                     </a>
