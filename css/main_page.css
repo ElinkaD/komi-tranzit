@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    height: 110vh;
+    background-image: url('../img/background 3x.png');
+    background-size: cover;
+    background-position: center;
+}
+.text-block {
+    width: 45vw;
+    color: #FEFEFE;
+    padding: 20px;
+    margin: auto 0;
+    text-align: center;
+    transform: translate(0, -10%);
+}
+
+.Motto{
+    position: absolute;
+    
+    text-align: left;
+    border-top: 2px #CCCCDA solid;
+    
+    width: 500px; 
+    max-width: 29.7vw;
+    height: 160px; 
+    left: -0px; 
+    top: 500px; 
+}
+.Motto p{
+    margin-left:20%;
+    padding: 50px 0;
+
+    color: #FEFEFE;
+}

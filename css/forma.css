@@ -1,0 +1,138 @@
+.contact-form {
+    width: 90vw;
+    padding: 2vw;
+
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.right{
+    width: 50vw;
+    margin-left: auto;
+}
+
+.right p {
+    color: #002033;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap:25px;
+
+    width: 40vw;
+}
+
+.contact-form label {
+    display: block;
+    font-size: 20px;
+    font-family: Hauora, sans-serif;
+    margin-bottom: 0.5vw;
+}
+
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 1vw;
+    font-size: 18px;
+    font-family: Hauora, sans-serif;
+
+    color: #33434D;
+    border: 1px solid rgba(153, 185, 204, 0.5);
+    border-radius: 15px;
+
+    caret-color: #2732CE; /* Цвет каретки */
+}
+.contact-form textarea {
+    resize: none;
+    height: 10vw;
+}
+.contact-form .form-group.required label::after {
+    content: "*";
+    color: #D8315B;
+    margin-left: 0.5vw;
+}
+.contact-form .form-group .hint {
+    font-size: 16px;
+    color: rgba(0, 32.38, 51, 0.70);
+    margin: 0;
+}
+
+button {
+    width: 100%;
+    padding: 1vw;
+    font-size: 18px;
+    font-family: Hauora, sans-serif;
+    color: rgba(51, 67, 77, 0.5);
+    background: #F0F2F2;
+    border-radius: 15px;
+    cursor: not-allowed;
+}
+
+button.active {
+    cursor: pointer;
+    color: #FEFEFE;
+    background: rgba(177, 199, 255, 1);
+    transition: background 0.3s ease, color 0.3s ease, transform 0.2s ease;
+}
+
+button.active:hover {
+    background: rgba(39, 50, 206, 0.60);
+    color: #FEFEFE;
+    transform: scale(1.05);
+}
+
+button.active:active {
+    background: rgba(10, 2, 118, 0.6);
+    color: #FEFEFE;
+    transform: scale(0.95);
+    transition: transform 0.1s ease;
+}
+
+button.active:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px rgba(10, 2, 118, 0.6);
+}
+
+
+.result-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    flex-direction: column;
+    width: 305px;
+}
+
+#result-image {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+    border-color: #3F8EFC;
+}
+
+
+
+.reload-button {
+    cursor: pointer;
+    color: #FEFEFE;
+    background: rgba(177, 199, 255, 1);
+    transition: background 0.3s ease, color 0.3s ease, transform 0.2s ease;
+}
+
+.reload-button:hover {
+    background: rgba(39, 50, 206, 0.60);
+    color: #FEFEFE;
+    transform: scale(1.05);
+}
+
+.reload-button.active:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px rgba(10, 2, 118, 0.6);
+}

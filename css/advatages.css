@@ -1,0 +1,51 @@
+.Advantage {
+    width: 70vw;
+    position: relative;
+
+    border-top: 2px #B1C7FF solid;
+
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.Title {
+    left: 0;
+    padding-top: 50px;
+
+    width: 30vw;
+}
+
+.Title p{
+    margin-top: 25px;
+}
+
+
+.advantage-items {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+
+    padding-top: 25px;
+
+    width: 522px;
+    border-top: 2px #B1C7FF solid;
+}
+
+.item h5 {
+    width: 196px;
+}
+
+.item p {
+    width: 305px;
+    font-size: 16px;
+    line-height: 24px;
+}

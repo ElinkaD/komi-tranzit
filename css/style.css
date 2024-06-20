@@ -1,0 +1,138 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family: 'Lora', serif;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+/* Подключение шрифта Hauora Regular */
+@font-face {
+    font-family: 'Hauora';
+    src: url('../fonts/Hauora-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+/* Подключение шрифта Hauora Bold */
+@font-face {
+    font-family: 'Hauora';
+    src: url('../fonts/Hauora-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+
+/* Подключение шрифта Hauora SemiBold */
+@font-face {
+    font-family: 'Hauora';
+    src: url('../fonts/Hauora-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+}
+
+/* Подключение шрифта Relic */
+@font-face {
+    font-family: 'Relic';
+    src: url('../fonts/relicpro-canonictrial.ttf') format('truetype');
+    font-weight: normal;
+}
+
+body{
+    background: #FEFEFE;
+
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+    color: #002033;
+}
+p{
+    font-family: Hauora, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 400;
+
+    color: rgba(0, 32.38, 51, 0.70);
+}
+
+h1 {
+    font-family: 'Relic';
+    font-size: 96px;
+    line-height: 1.2;
+}
+h2{
+    font-family: 'Relic';
+    font-size: 80px;
+    line-height: 1.1;
+}
+h3{
+    font-size: 48px;
+    line-height: 1.5;
+    font-family: 'Hauora';
+    font-weight: 400;
+}
+h5 {
+    font-size: 18px;
+    font-family: Hauora, sans-serif;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+h4 {
+    font-size: 20px;
+    font-family: Hauora, sans-serif;
+    font-weight: 400;
+    color: #F0F2F2;
+}
+h4:hover {
+    color: #3724E5;
+    font-weight: 700;
+}
+h4:after {
+    background: #3724E5;
+    transform: rotate(45deg) translateX(6.5px);
+    opacity: 0;
+    transition: .3s linear;
+}
+h4:hover:after {
+    opacity: 1;
+}
+
+.page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 200px; /* Расстояние между элементами внутри контейнера */
+
+    margin: 200px 0;
+}
+
+/* inner title */
+.hero {
+    text-align: left;
+
+    width: 100vw;
+    height: 65%;
+}
+.hero-text {
+    position: absolute;
+    top: 45vh;
+    left: 5vw;
+    width: 90vw;
+
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    gap: 5px;
+}
+
+.hero-text h4{
+    color: rgba(2, 13.60, 118, 0.60);
+}

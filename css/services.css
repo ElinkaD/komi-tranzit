@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto;
+    gap: 20px;
+    width: 65vw;
+    margin: auto;
+}
+
+.service-tile {
+    position: relative;
+    border-radius: 15px;
+    border: 2px #2732CE solid;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.service-tile:hover {
+    transform: scale(1.05);
+}
+
+.service-tile.medium, .service-tile.large {
+    height: 347px;
+}
+
+.service-tile.large-full {
+    height: 500px;
+    grid-column: span 2;
+}
+
+.tile-content {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.tile-content h3 {
+    font-weight: 700;
+    color: #2732CE;
+}
+
+.tile-content p {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #002033;
+    text-align: left;
+    margin-left: 80px;
+    margin-top: 30%;
+}
+
+/* Псевдоэлемент для фона */
+.service-tile::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: var(--bg-image);
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    z-index: 0;
+}
+
+.service-tile:hover::before {
+    opacity: 1;
+}
+
+.service-tile:hover .tile-content h3,
+.service-tile:hover .tile-content p {
+    color: #FEFEFE;
+}

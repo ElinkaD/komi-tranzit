@@ -1,0 +1,73 @@
+/* header */
+.menu-main a {
+    color: #140C9C;
+}
+.menu-main a:hover,
+.menu-main a:after,
+.menu-main a:hover:after {
+    color: #D8315B;
+}
+
+.page{
+    margin: 100px 0 200px 0;
+}
+
+
+
+.review {
+    width: 89vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.review h3 {
+    font-size: 32px;
+    font-family: 'Relic', sans-serif;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.rows {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.card {
+    width: 28.7vw;
+    border-radius: 15px;
+    border: 4px #2732CE solid;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frame {
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.name {
+    font-size: 24px;
+    font-family: Hauora, sans-serif;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.frame hr {
+    border: 1px solid #2732CE;
+    margin: 0;
+    width: 100%;
+}
+

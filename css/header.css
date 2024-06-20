@@ -1,0 +1,54 @@
+.top-menu {
+    margin-top: 2%;
+    padding: 0 5%;
+    width: 100%;
+    z-index: 9999;
+    position: absolute;
+    font-family: 'Hauora';
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.navbar-logo {
+    display: inline-block;
+}
+
+.menu-main {
+    float: right;
+}
+
+.menu-main li {
+    display: inline-block;
+}
+
+.menu-main a {
+    text-transform: uppercase;
+    display: block;
+    position: relative;
+    margin: 0% 35px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #FEFEFE;
+    transition: color .3s linear;
+}
+.menu-main a.active {
+    color: #D8315B;
+    pointer-events: none;
+}
+
+.menu-main a:hover {
+    color: #140C9C;
+}
+
+.menu-main a:after {
+    background: #140C9C;
+    position: absolute;
+    transform: rotate(45deg) translateX(6.5px);
+    opacity: 0;
+    transition: .3s linear;
+}
+
+.menu-main a:hover:after {
+    opacity: 1;
+    background: #140C9C;
+}

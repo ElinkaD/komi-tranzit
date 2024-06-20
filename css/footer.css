@@ -1,0 +1,130 @@
+.footer-main {
+    width: 100vw;
+    height: 110vh;
+    background: #B1C7FF;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}
+
+.footer-links {
+    position: relative;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center; 
+
+    height: 100vh; 
+    width: 90vw;     
+}
+.footer-links p, .footer-links a{
+    font-size: 20px;
+    font-family: Hauora, sans-serif;
+    line-height: 1.5;
+}
+
+address {
+    font-style: normal;
+}
+
+.footer-left, .footer-right {
+    position: relative;
+}
+
+.footer-left {
+    width: 36.5vw; 
+    height: auto; 
+    padding: 0; 
+
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.request, .contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+
+.request-link, .contacts-link {
+    position: relative;
+}
+
+
+.link-button {
+    width: 100%;
+    height: 56px;
+    border-top: 1px #002033 solid;
+    padding-top: 40px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: #002033;
+}
+
+.svg {
+    width: 36px;
+    height: 36px;
+}
+
+.footer-right {
+    width: 50%;
+    height: auto;
+
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+}
+
+.navigation {
+    position: relative; 
+}
+
+.navigation h5 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.nav-links ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links a {
+    color: rgba(0, 32.38, 51, 0.70);
+}
+.nav-links a:hover {
+    color: #2732CE;
+    font-weight: 600;
+}
+
+.footer-bottom {
+    height: 7vw;
+    width: 100vw;
+    padding-left: 5vw;
+
+    background: #2732CE;
+    border-top: 2px #F0F2F2 solid;
+
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+
+.footer-bottom p, .footer-bottom a {
+    color: #FEFEFE;
+    font-family: Hauora, sans-serif;
+    font-size: 14px;
+}
