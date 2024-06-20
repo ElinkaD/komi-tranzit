@@ -23,14 +23,15 @@
             </div>
             <button type="submit">Отправить</button>
         </form>
+        <form action="#">
+            <div class="result-message" style="display: none;">
+                <img id="result-image" src="" alt="Result" style="display: none;">
+                <br>
+                <button class="reload-button" style="display: none;">Хорошо</button>
+            </div>
+        </form>
     </div>
 </section>
-
-<div class="result-message" style="display: none;">
-    <img id="result-image" src="" alt="Result" style="display: none;">
-    <br>
-    <button class="reload-button" style="display: none;">Перезагрузить</button>
-</div>
 
 
 <?php
@@ -59,13 +60,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $comment = isset($_POST['comment']) ? htmlspecialchars($_POST['comment']) : '';
 
     // Запись данных в файл
-    $data = "Name: $name\nPhone: $phone\nEmail: $email\nComment: $comment\n\n";
+    $data = "Клиент\nФИО: $name\nТелефон: $phone\nПочта: $email\nКомментарий: $comment\n\n";
     $file = 'form_data.txt';
 
-} else {
-    echo json_encode(['status' => 'error', 'message' => 'Invalid request method']);
+    if (file_put_contents($file, $data, FILE_APPEND | LOCK_EX)) {
+        echo json_encode(['status' => 'success', 'message' => 'Данные успешно сохранены.']);
+    } else {
+        echo json_encode(['status' => 'error', 'message' => 'Ошибка при записи данных.']);
+    }
 }
 ?>
+
 
 
 

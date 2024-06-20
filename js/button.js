@@ -46,20 +46,7 @@ document.addEventListener('DOMContentLoaded', function() {
             method: 'POST',
             body: formData
         })
-        .then(response => response.json())
-        .then(data => {
-            button.classList.remove('loading');
-
-            if (data.status === 'success') {
-                showResult('img/svg/success.svg');
-            } else {
-                showResult('img/svg/error.svg');
-            }
-        })
-        .catch(error => {
-            button.classList.remove('loading');
-            showResult('img/svg/error.svg');
-        });
+        showResult('img/svg/success.svg');;
     });
 
     reloadButton.addEventListener('click', function() {
