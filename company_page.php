@@ -26,7 +26,11 @@
 </style>
 
 <section class="hero">
-    <img src="img/background_company@3x.png" alt="Background Image" class="hero-image">
+    <picture>
+        <source media="(min-width: 800px)" srcset="img/background_company@3x.png 2x, img/background_company@2x.png">
+        <source media="(min-width: 500px)" srcset="img/background_company@2x.png">
+        <img src="img/background_company.png" alt="Background Image" class="hero-image">
+    </picture>
     <div class="hero-text">
         <a href="index.php?page=main_page"><h4>Главная</h4></a>
         <h1>ООО Коми Транзит</h1>
