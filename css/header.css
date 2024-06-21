@@ -10,7 +10,16 @@
 }
 
 .navbar-logo {
-    display: inline-block;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar-logo h4{
+    font-size: 18px;
+    font-family: Relic;
+    color: #FEFEFE;
 }
 
 .menu-main {
@@ -52,3 +61,4 @@
     opacity: 1;
     background: #140C9C;
 }
+

@@ -9,6 +9,10 @@
     color: #D8315B;
 }
 
+.navbar-logo h4{
+    color: #140C9C;
+}
+
 .inner-page{
     width: 66vw;
     margin: 100px 5vw 200px 0;

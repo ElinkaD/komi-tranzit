@@ -8,7 +8,9 @@
 .menu-main a:hover:after {
     color: #D8315B;
 }
-
+.navbar-logo h4{
+    color: #140C9C;
+}
 .page{
     margin: 100px 0 200px 0;
 }

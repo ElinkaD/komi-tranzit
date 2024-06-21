@@ -5,20 +5,22 @@
 
     display: flex;
     flex-direction: column;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
 }
 
 .footer-links {
     position: relative;
-    display: flex; 
+    display: flex;
     justify-content: space-between;
-    align-items: center; 
+    align-items: center;
 
-    height: 100vh; 
-    width: 90vw;     
+    height: 100vh;
+    width: 90vw;
 }
-.footer-links p, .footer-links a{
+
+.footer-links p,
+.footer-links a {
     font-size: 20px;
     font-family: Hauora, sans-serif;
     line-height: 1.5;
@@ -28,28 +30,31 @@ address {
     font-style: normal;
 }
 
-.footer-left, .footer-right {
+.footer-left,
+.footer-right {
     position: relative;
 }
 
 .footer-left {
-    width: 36.5vw; 
-    height: auto; 
-    padding: 0; 
+    width: 36.5vw;
+    height: auto;
+    padding: 0;
 
     display: flex;
     flex-direction: column;
     gap: 70px;
 }
 
-.request, .contacts {
+.request,
+.contacts {
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
 
 
-.request-link, .contacts-link {
+.request-link,
+.contacts-link {
     position: relative;
 }
 
@@ -76,13 +81,13 @@ address {
     width: 50%;
     height: auto;
 
-    display: flex; 
-    flex-direction: column; 
-    justify-content: center; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .navigation {
-    position: relative; 
+    position: relative;
 }
 
 .navigation h5 {
@@ -97,7 +102,7 @@ address {
     gap: 15px;
 }
 
-.nav-links ul{
+.nav-links ul {
     display: flex;
     justify-content: space-between;
 }
@@ -105,6 +110,7 @@ address {
 .nav-links a {
     color: rgba(0, 32.38, 51, 0.70);
 }
+
 .nav-links a:hover {
     color: #2732CE;
     font-weight: 600;
@@ -123,7 +129,8 @@ address {
     align-items: center;
 }
 
-.footer-bottom p, .footer-bottom a {
+.footer-bottom p,
+.footer-bottom a {
     color: #FEFEFE;
     font-family: Hauora, sans-serif;
     font-size: 14px;
@@ -138,3 +145,9 @@ address {
     opacity: 0.8;
 }
 
+@media (max-width: 500) {
+    .footer-links {
+        flex-direction: column;
+        justify-content: center;
+    }
+}

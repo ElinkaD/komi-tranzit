@@ -1,3 +1,4 @@
+/* Стили для секции slogan */
 .slogan h2 {
     width: 100vw;
     text-align: center;
@@ -5,9 +6,9 @@
     font-size: 72px;
 }
 
+/* Стили для секции history */
 .history {
     padding: 54px 0;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,19 +35,40 @@
     color: #2732CE;
 }
 
-.left p{
-    width: 28vw; /* Adjusted to be consistent */
+.left p {
+    width: 28vw; 
     color: #002033;
 }
 
 .img-container {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    display: flex;
 }
 
 .company-image {
     width: 522px;
-    border-radius: 15px
+    border-radius: 15px;
+}
+
+@media (max-width: 800px) {
+    .container_history {
+        flex-direction: column;
+        align-items: center;
+
+        gap: 100px;
+    }
+    .left h3 {
+        font-size: 32px;
+        font-weight: 700;
+    }
+    .left h3, .left p {
+        width: 90vw;
+    }    
+    .company-image {
+        width: 100vw;
+        height: auto;
+        border-radius: 0;
+    }
 }

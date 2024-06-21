@@ -13,10 +13,10 @@
         </div>
     </a>
 
-    <a href="index.php?page=service02" class="service-tile large-full" style="--bg-image: url('../img/03 serve@2x.png');">
+    <a href="index.php?page=service03" class="service-tile large-full" style="--bg-image: url('../img/03 serve@2x.png');">
         <div class="tile-content">
             <h3>03</h3>
-            <p style="font-size: 32px; line-height: 48px;">Логистика</p>
+            <p>Логистика</p>
         </div>
     </a>
 </section>

@@ -35,7 +35,7 @@
     }
 
     echo '<nav class="top-menu">';
-    echo '<a class="navbar-logo" href="index.php"><img src="img/svg/logo.svg" alt="Логотип ООО Коми Транзит"></a>';
+    echo '<a class="navbar-logo" href="index.php"><img src="img/svg/logo_main.svg" alt="Логотип ООО Коми Транзит"><h4>ООО КОМИ ТРАНЗИТ</h4></a>';
     echo '<ul class="menu-main">';
 
     // Генерация HTML-кода меню
