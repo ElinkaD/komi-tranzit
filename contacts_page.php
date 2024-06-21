@@ -1,5 +1,5 @@
 <style>
-/* header */
+/* inner title */
 .menu-main a {
     color: #140C9C;
 }
@@ -8,18 +8,16 @@
 .menu-main a:hover:after {
     color: #D8315B;
 }
-.navbar-logo h4{
+.navbar-logo h4 {
     color: #140C9C;
 }
-.page{
+.page {
     margin: 100px 0 200px 0;
 }
 
 .contacts_block {
     width: 90vw;
     padding: 20px;
-    padding: 0;
-
     margin: 0 auto;
 }
 
@@ -33,20 +31,37 @@
 .office-info, .contact-info {
     display: flex;
     flex-direction: column;
-
     gap: 30px;
 }
 
-.contacts_block h3, .page h3{
+.contacts_block h3, .page h3 {
     font-size: 32px;
     font-weight: 400;
 }
 
-.address p, .contact-info a, .contact-info p{
+.address p, .contact-info a, .contact-info p {
     font-size: 20px;
     color: #002033;
 }
 
+.map iframe {
+    width: 90vw;
+    margin: 0 auto;
+
+    height: 400px;
+    border-radius: 15px;
+    border: 1px solid #000;
+}
+
+@media (max-width: 768px){
+    .container {
+        flex-direction: column;
+    }
+    
+    .map iframe {
+        height: 300px;
+    }
+}
 </style>
 
 <section class="hero">

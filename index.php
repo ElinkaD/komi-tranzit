@@ -49,6 +49,7 @@
     }
     echo '</ul>';
     echo '</nav>';
+    
     include '' . $page . '.php';
     ?>
 
