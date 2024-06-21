@@ -50,7 +50,6 @@
 
     height: 400px;
     border-radius: 15px;
-    border: 1px solid #000;
 }
 
 @media (max-width: 768px){
