@@ -46,7 +46,7 @@
     </div>
     <div class="footer-bottom">
         <p>© 2024 ООО «КОМИ ТРАНЗИТ»</p>
-        <a href="#">Политика персональных данных</a>
+        <a href="https://02.rkn.gov.ru/directions/p4172/p18331/">Политика персональных данных</a>
     </div>
 </footer>
 
