@@ -21,7 +21,7 @@ form{
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    gap:25px;
+    gap: 25px;
 
     width: 40vw;
 }
@@ -135,4 +135,15 @@ button.active:focus {
 .reload-button.active:focus {
     outline: none;
     box-shadow: 0 0 0 4px rgba(10, 2, 118, 0.6);
+}
+
+@media (max-width: 768px){
+    .right{
+        width: 90vw;
+        margin: 0 auto;
+    }
+
+    form{
+        width: 90vw;
+    }
 }
