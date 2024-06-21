@@ -50,7 +50,7 @@
     line-height: 24px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 830px) {
     .Advantage{
         flex-direction: column;
         justify-content: center;

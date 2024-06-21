@@ -61,7 +61,7 @@
 	top: auto !important;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 830px) {
 	/* Адаптация для мобильных устройств */
 	.slider {
 		width: 90vw;
@@ -69,7 +69,6 @@
 
 	.image-slider img {
 		width: 100%;
-		height: auto;
 	}
 
 	.name {

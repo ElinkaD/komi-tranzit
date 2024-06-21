@@ -35,8 +35,7 @@
 .tile-content {
     position: relative;
     z-index: 1;
-    width: 100%;
-    height: 100%;
+
     margin-top: 50px;
     margin-left: 20px;
 }
@@ -49,7 +48,6 @@
 .tile-content p {
     font-size: 24px;
     font-weight: 600;
-    line-height: 36px;
     color: #002033;
     text-align: left;
     margin-left: 80px;
@@ -74,9 +72,36 @@
 
 .service-tile:hover::before {
     opacity: 1;
+    border: 0;
+}
+.service-tile:hover {
+    border: 0;
 }
 
 .service-tile:hover .tile-content h3,
 .service-tile:hover .tile-content p {
     color: #FEFEFE;
+}
+
+@media (max-width: 830px) {
+    .services {
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+    }
+    .service-tile.large-full, .service-tile.large, .service-tile.medium{
+        height: 300px;
+    }
+    .service-tile::before {
+        opacity: 1; 
+    }
+    .tile-content h3, .tile-content p{
+        color: #FEFEFE;
+    }
+    .service-tile{
+        border: 0;
+    }
+    .tile-content p {
+        margin-top: 10%;
+    }
 }

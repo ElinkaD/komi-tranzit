@@ -1,5 +1,5 @@
 <style>
-/* header */
+/* inner title */
 .menu-main a {
     color: #140C9C;
 }
@@ -17,6 +17,13 @@
     width: 66vw;
     margin: 100px 5vw 200px 0;
     margin-left: auto;
+}
+
+@media (max-width: 800px) {
+    .inner-page{
+        margin: 100px 0 200px 0;
+        width: 100vw;
+    }
 }
 </style>
 
