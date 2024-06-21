@@ -62,3 +62,11 @@
     background: #140C9C;
 }
 
+
+@media (max-width: 800px) {
+    .menu-main li {
+        display: flex;
+        flex-direction: column;
+        padding:10px;
+    }
+}
