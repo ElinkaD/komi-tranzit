@@ -21,7 +21,6 @@
     padding: 0;
 
     margin: 0 auto;
-    transform: translate(0, -25%);
 }
 
 .container {

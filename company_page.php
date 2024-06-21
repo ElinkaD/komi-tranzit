@@ -2,7 +2,7 @@
 .hero {
     position: relative;
     color: #FEFEFE;
-    height: 100vh;
+    height: 84vh;
 }
 .hero h4{
     color: #F0F2F2
@@ -23,6 +23,21 @@
     color: #FEFEFE;
 }
 
+@media (max-width: 800px) {
+    .hero-text h1 {
+        font-size: 48px;
+    }
+
+    .hero-text p {
+        width: 90vw;
+        font-size: 16px;
+        line-height: 1.5; 
+    }
+
+    .hero {
+    height: 90vh;
+}
+}
 </style>
 
 <section class="hero">

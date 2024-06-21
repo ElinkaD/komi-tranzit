@@ -71,4 +71,8 @@
         height: auto;
         border-radius: 0;
     }
+
+    .slogan h2 {
+        font-size: 48px;
+    }
 }

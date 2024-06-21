@@ -114,25 +114,36 @@ h4:hover:after {
     margin: 200px 0;
 }
 
-/* inner title */
+/* Стили для внутреннего заголовка h1 */
 .hero {
     text-align: left;
-
     width: 100vw;
-    height: 65%;
+    padding: 20px; 
+    padding-left: 80px; 
+    box-sizing: border-box;
+    height: auto; 
 }
 .hero-text {
-    position: absolute;
-    top: 45vh;
-    left: 5vw;
-    width: 90vw;
-
+    position: relative; 
+    width: 100%;
     display: flex;
     flex-direction: column;
-    height: 100vh;
     gap: 5px;
+
+    padding-top: 240px;
 }
 
-.hero-text h4{
+.hero-text h4 {
     color: rgba(2, 13.60, 118, 0.60);
+}
+
+@media (max-width: 800px) {
+    .hero {
+        padding-left: 5%; 
+        box-sizing: border-box;
+        height: auto; 
+    }
+    .hero-text h1 {
+        font-size: 48px;
+    }
 }
