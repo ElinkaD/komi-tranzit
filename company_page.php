@@ -4,8 +4,8 @@
     color: #FEFEFE;
     height: 84vh;
 }
-.hero h4{
-    color: #F0F2F2
+.hero h4, .navbar-logo h4{
+    color: #140C9C;
 }
 
 .hero-image {

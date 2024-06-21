@@ -92,7 +92,7 @@
 
 <div class="page">
     <section class ="map">
-        <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/10944/usinsk/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Усинск</a><a href="https://yandex.ru/maps/10944/usinsk/house/zagorodnaya_ulitsa_3/YU4YcwFlTE0HQFhsfXxzdnViZA==/inside/?ll=57.565580%2C66.027910&tab=inside&utm_medium=mapframe&utm_source=maps&z=16.86" style="color:#eee;font-size:12px;position:absolute;top:14px;">Загородная улица, 3 — Яндекс Карты</a><iframe src="https://yandex.ru/map-widget/v1/?ll=57.565580%2C66.027910&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgo0MjAzNTgwOTMzEl3QoNC-0YHRgdC40Y8sINCg0LXRgdC_0YPQsdC70LjQutCwINCa0L7QvNC4LCDQo9GB0LjQvdGB0LosINCX0LDQs9C-0YDQvtC00L3QsNGPINGD0LvQuNGG0LAsIDMiCg0oQ2ZCFUoOhEI%2C&tab=inside&z=16.86" width="1280px" height="400" frameborder="1" allowfullscreen="true" style="position:relative; border-radius: 15px;"></iframe></div>
+        <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/org/komi_tranzit/77931715177/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Коми Транзит</a><a href="https://yandex.ru/maps/10944/usinsk/category/rail_freight_transport/184108181/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Железнодорожные грузоперевозки в Усинске</a><iframe src="https://yandex.ru/map-widget/v1/?from=mapframe&ll=57.565580%2C66.028268&mode=search&oid=77931715177&ol=biz&source=mapframe&utm_source=mapframe&z=16" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
     </section>
 
     <?php 
