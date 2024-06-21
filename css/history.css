@@ -59,6 +59,9 @@
 
         gap: 100px;
     }
+    .left{
+        padding: 0 5vw;
+    }
     .left h3 {
         font-size: 32px;
         font-weight: 700;

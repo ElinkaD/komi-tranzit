@@ -36,7 +36,7 @@
 
     padding-top: 25px;
 
-    width: 522px;
+    width: 100%;
     border-top: 2px #B1C7FF solid;
 }
 
@@ -48,4 +48,24 @@
     width: 305px;
     font-size: 16px;
     line-height: 24px;
+}
+
+@media (max-width: 768px) {
+    .Advantage{
+        flex-direction: column;
+        justify-content: center;
+
+        width: 90vw;
+    }
+    .Title{
+        width: 100%;
+    }
+    .advantage-items{
+        width: 100%;
+    }
+
+    .Advantage h3{
+        font-size: 32px;
+    }
+
 }

@@ -1,58 +1,97 @@
+/* Секция слайдера */
 .slider {
 	margin: 0 auto;
 	width: 70vw;
-
 	position: relative;
-	overflow:hidden;
+	overflow: hidden;
 }
 
 .image-slider img {
 	width: 65%;
 	height: 500px;
-    border-radius: 15px;
+	border-radius: 15px;
 	flex-shrink: 0;
 }
 
-.name{
-    display: flex;
-    flex-direction: column;
+.name {
+	display: flex;
+	flex-direction: column;
+	width: 35%;
+	margin: auto 0;
+}
 
-    width: 35%;
-    margin: auto 0;
+.description {
+	display: flex;
+	flex-direction: row;
+	margin: auto 0;
 }
-.description{
-    display: flex;
-    flex-direction: row;
 
-    margin-top: 10px;
+.line-slider {
+	width: 50px;
+	height: 1px;
+	margin: auto 40px auto 0;
+	background: #002033;
 }
-.line-slider{
-    width: 50px; 
-    height: 1px;
-    margin: auto 40px auto 0; 
-    background: #002033;
+
+.image-slider p {
+	color: #002033;
 }
-.image-slider p{
-    color: #002033;
-}
-.image-slider_image{
+
+.image-slider_image {
 	display: flex;
 }
 
 .swiper-button-prev,
-.swiper-button-next{
-    color: #2732CE !important;
-    position: absolute;
+.swiper-button-next {
+	color: #2732CE !important;
+	position: absolute;
 }
-.swiper-button-prev{
-    left: 0 !important;
-    right: auto !important;
-    bottom: 0 !important;
-    top: auto !important;
+
+.swiper-button-prev {
+	left: 0 !important;
+	right: auto !important;
+	bottom: 0 !important;
+	top: auto !important;
 }
-.swiper-button-next{
-    left: 6% !important;
-    right: auto !important;
-    bottom: 0 !important;
-    top: auto !important;
+
+.swiper-button-next {
+	left: 6% !important;
+	right: auto !important;
+	bottom: 0 !important;
+	top: auto !important;
+}
+
+@media (max-width: 768px) {
+	/* Адаптация для мобильных устройств */
+	.slider {
+		width: 90vw;
+	}
+
+	.image-slider img {
+		width: 100%;
+		height: auto;
+	}
+
+	.name {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+
+	.swiper-button-prev,
+	.swiper-button-next {
+		bottom: 15vh !important;
+		top: auto !important;
+		left: 10px !important;
+		right: 10px !important;
+	}
+
+	.swiper-button-next {
+		left: auto !important;
+		right: 10px !important;
+	}
+    .image-slider_image{
+        flex-direction: column;
+    }
+
 }
