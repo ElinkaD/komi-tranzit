@@ -1,7 +1,7 @@
 .container {
     display: flex;
     height: 110vh;
-    background-image: url('../img/background 3x.png');
+    background-image: url('../img/background.webp');
     background-size: cover;
     background-position: center;
 }
@@ -39,7 +39,7 @@
     }
     .container {
         height: 90vh;
-        background-image: url('../img/background mobile.jpg');
+        background-image: url('../img/background mobile.webp');
         background-position: right;
     }
 

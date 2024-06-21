@@ -40,29 +40,32 @@ header('Content-Type: application/json');
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Убедимся, что все необходимые поля заполнены
     $requiredFields = ['name', 'phone', 'email'];
-    $missingFields = [];
+    $missingFields = []; // Массив для хранения отсутствующих полей
 
+    // Проверка наличия обязательных полей
     foreach ($requiredFields as $field) {
         if (empty($_POST[$field])) {
             $missingFields[] = $field;
         }
     }
 
+    // Если есть отсутствующие поля, возвращаем ошибку
     if (!empty($missingFields)) {
         echo json_encode(['status' => 'error', 'message' => 'Missing fields: ' . implode(', ', $missingFields)]);
         exit;
     }
 
-    // Данные из формы
+    // Получаем данные из формы
     $name = htmlspecialchars($_POST['name']);
     $phone = htmlspecialchars($_POST['phone']);
     $email = htmlspecialchars($_POST['email']);
     $comment = isset($_POST['comment']) ? htmlspecialchars($_POST['comment']) : '';
 
-    // Запись данных в файл
+    // Форматируем данные для записи в файл
     $data = "Клиент\nФИО: $name\nТелефон: $phone\nПочта: $email\nКомментарий: $comment\n\n";
     $file = 'form_data.txt';
 
+    // Записываем данные в файл, добавляя их в конец файла
     if (file_put_contents($file, $data, FILE_APPEND | LOCK_EX)) {
         echo json_encode(['status' => 'success', 'message' => 'Данные успешно сохранены.']);
     } else {

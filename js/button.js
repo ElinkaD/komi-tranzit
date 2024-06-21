@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const resultImage = document.getElementById('result-image');
     const reloadButton = document.querySelector('.reload-button');
 
+    // Функция проверки валидности всех обязательных полей формы
     function checkFormValidity() {
         let allValid = true;
         requiredFields.forEach(field => {
@@ -30,18 +31,21 @@ document.addEventListener('DOMContentLoaded', function() {
         resultImage.style.display = 'block';
         reloadButton.style.display = 'block';
     }
-
+    
+    // Добавление обработчиков событий для обязательных полей, чтобы проверять валидность при изменении данных
     requiredFields.forEach(field => {
         field.addEventListener('input', checkFormValidity);
     });
 
+    // Обработчик отправки формы
     form.addEventListener('submit', function(event) {
-        event.preventDefault();
+        event.preventDefault(); // Предотвращение перезагрузки страницы после отправки формы 
 
         button.classList.add('loading');
 
-        const formData = new FormData(form);
+        const formData = new FormData(form); // Создание объекта FormData для отправки данных формы
 
+        // Отправка данных формы на сервер
         fetch('forma.php', {
             method: 'POST',
             body: formData
@@ -49,9 +53,12 @@ document.addEventListener('DOMContentLoaded', function() {
         showResult('img/svg/success.svg');;
     });
 
+
     reloadButton.addEventListener('click', function() {
-        window.location.reload();
+        console.log('Клик по кнопке сработал');
+        const targetUrl = 'index.php?page=contacts_page';
+        window.location.href = targetUrl;
     });
 
-    checkFormValidity();  // Initial check
+    checkFormValidity(); 
 });

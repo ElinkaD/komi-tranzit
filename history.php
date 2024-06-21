@@ -10,9 +10,9 @@
             <p>Благодаря наличию железнодорожного тупика за&nbsp;пределами промышленной зоны и&nbsp;путепровода, который ограничивает высоту автомобильного транспорта при перемещении из&nbsp;города Усинска, мы&nbsp;можем обеспечить беспрепятственную отправку негабаритных грузов на&nbsp;промыслы нефтяных и&nbsp;газовых месторождений.</p>        </div>
         <div class="img-container">
             <picture>
-                <source media="(min-width: 800px)" srcset="img/history@3x.png 2x, img/history@2x.png">
-                <source media="(min-width: 500px)" srcset="img/history@2x.png">
-                <img class="company-image" src="img/history.png" alt="Компания" />
+                <source media="(min-width: 800px)" srcset="img/history@3x.webp 2x, img/history@2x.webp">
+                <source media="(min-width: 500px)" srcset="img/history@2x.webp">
+                <img class="company-image" src="img/history.webp" alt="Компания" />
             </picture>
         </div>
     </div>

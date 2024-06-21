@@ -10,9 +10,9 @@
 							<p>Переработка груза</p>
 						</div>
 					</div>
-					<source media="(min-width: 800px)" srcset="img/Recycling@3x.jpg 2x, img/Recycling@2x.jpg">
-					<source media="(min-width: 500px)" srcset="img/Recycling@2x.jpg">
-					<img src="img/Recycling.jpg" alt="Фото 1">
+					<source media="(min-width: 800px)" srcset="img/Recycling@3x.webp 2x, img/Recycling@2x.webp">
+					<source media="(min-width: 500px)" srcset="img/Recycling@2x.webp">
+					<img src="img/Recycling.webp" alt="Фото 1">
 				</div>
 			</div>
 
@@ -25,9 +25,9 @@
 							<p>Прием груза</p>
 						</div>
 					</div>
-					<source media="(min-width: 800px)" srcset="img/Reception@3x.jpg 2x, img/Reception@2x.jpg">
-					<source media="(min-width: 500px)" srcset="img/Reception@2x.jpg">
-					<img src="img/Reception.jpg" alt="Фото 2">
+					<source media="(min-width: 800px)" srcset="img/Reception@3x.webp 2x, img/Reception@2x.webp">
+					<source media="(min-width: 500px)" srcset="img/Reception@2x.webp">
+					<img src="img/Reception.webp" alt="Фото 2">
 				</div>
 			</div>
 
@@ -40,9 +40,9 @@
 							<p>Подъезд</p>
 						</div>
 					</div>
-					<source media="(min-width: 800px)" srcset="img/Entrance@3x.jpg 2x, img/Entrance@2x.jpg">
-					<source media="(min-width: 500px)" srcset="img/Entrance@2x.jpg">
-					<img src="img/Entrance.jpg" alt="Фото 3">
+					<source media="(min-width: 800px)" srcset="img/Entrance@3x.webp 2x, img/Entrance@2x.webp">
+					<source media="(min-width: 500px)" srcset="img/Entrance@2x.webp">
+					<img src="img/Entrance.webp" alt="Фото 3">
 				</div>
 			</div>
 		</div>

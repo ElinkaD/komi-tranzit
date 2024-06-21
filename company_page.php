@@ -42,9 +42,9 @@
 
 <section class="hero">
     <picture>
-        <source media="(min-width: 800px)" srcset="img/background_company@3x.png 2x, img/background_company@2x.png">
-        <source media="(min-width: 500px)" srcset="img/background_company@2x.png">
-        <img src="img/background_company.png" alt="Background Image" class="hero-image">
+        <source media="(min-width: 800px)" srcset="img/background_company@3x.webp 2x, img/background_company@2x.webp">
+        <source media="(min-width: 500px)" srcset="img/background_company@2x.webp">
+        <img src="img/background_company.webp" alt="Background Image" class="hero-image">
     </picture>
     <div class="hero-text">
         <a href="index.php?page=main_page"><h4>Главная</h4></a>
@@ -57,9 +57,7 @@
 <?php 
     require 'history.php';
     echo '<link rel="stylesheet" href="css/history.css">'; 
-?>
 
-<?php 
     require 'advatages.php'; 
     echo '<link rel="stylesheet" href="css/advatages.css">';
 ?>

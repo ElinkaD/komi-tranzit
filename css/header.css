@@ -69,4 +69,8 @@
         flex-direction: column;
         padding:10px;
     }
+
+    .navbar-logo h4{
+        display: none;
+    }
 }
