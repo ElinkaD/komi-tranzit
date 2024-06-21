@@ -14,38 +14,38 @@
 </section>
 
 <div class="container">
-    <section class="section">
+    <section class="serve">
         <div class="item">
-            <span>ООО &laquo;Коми Транзит&raquo; осуществляет отгрузку груза на&nbsp;автомобильный транспорт.</span>
+            <p>ООО &laquo;Коми Транзит&raquo; осуществляет отгрузку груза на&nbsp;автомобильный транспорт.</p>
         </div>
     </section>
-    <section class="section">
+    <section class="serve">
         <div class="item">
-            <span>Организация предоставляет услуги по&nbsp;транспортной логистике с&nbsp;привлечением транспортных средств подрядчиков различной модификации и&nbsp;назначения.</span>
+            <p>Организация предоставляет услуги по&nbsp;транспортной логистике с&nbsp;привлечением транспортных средств подрядчиков различной модификации и&nbsp;назначения.</p>
         </div>
     </section>
 
-    <section class="section">
-        <div class="header">При оказании услуг ООО &laquo;Коми Транзит&raquo; стремится&nbsp;к:</div>
+    <section class="serve">
+        <h3>При оказании услуг ООО &laquo;Коми Транзит&raquo; стремится&nbsp;к:</h3>
         <div class="item">
             <hr>
-            <span>Высокому уровню оказываемых услуг</span>
+            <p>Высокому уровню оказываемых услуг</p>
         </div>
         <div class="item">
             <hr>
-            <span>Индивидуальному подходу к&nbsp;каждому клиенту</span>
+            <p>Индивидуальному подходу к&nbsp;каждому клиенту</p>
         </div>
         <div class="item">
             <hr>
-            <span>Минимальные сроки и&nbsp;скорость выполнения качественно услуг</span>
+            <p>Минимальные сроки и&nbsp;скорость выполнения качественно услуг</p>
         </div>
         <div class="item">
             <hr>
-            <span>Минимальные выгодные цены</span>
+            <p>Минимальные выгодные цены</p>
         </div>
         <div class="item">
             <hr>
-            <span>Бережное отношение к&nbsp;грузу</span>
+            <p>Бережное отношение к&nbsp;грузу</p>
         </div>
     </section>
 </div>
